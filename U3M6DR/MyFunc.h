@@ -1,0 +1,13 @@
+void head(char mas[]);
+void yellow();
+void white();
+void red();
+void green();
+int fgp(int f, int zn, int n);
+int fgpSum(int f, int zn, int n, int sum = 0);
+int maxArr(int* arr, int r, int max=0, int nach=0);
+void randArr(int * mas, int r, int start, int end);
+void printArr(int *mas, int r);
+int maxIndArr(int* arr, int r, int max=0, int nach=0, int ind=0);
+int Sum(int *arr, int r, bool pol=true);
+int algEvq(int x, int y);
